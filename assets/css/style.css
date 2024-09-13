@@ -1,0 +1,610 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+
+
+
+
+/* header basliyurrrrrr ----------------------------------------------------------------------
+----------------------------------------------------------
+------------------------------------------------
+-----------------------------
+--------------------------------------------
+--
+---------------------------------- */
+
+
+
+
+#header {
+    padding: 20px;
+    /* border: 3px solid red; */
+
+    .header-middle {
+        /* vertical-align: middle; */
+        /* border: 3px solid blueviolet; */
+
+        .logo {
+            /* border: 3px solid red; */
+            width: 130px;
+            height: 100%;
+            /* vertical-align: middle; */
+            /* bottom: 0; */
+            /* object-fit: cover; */
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .search {
+            /* bottom: 20px; */
+            /* border: 3px solid red; */
+
+            input {
+                background-color: #F7F7F7;
+                border: inherit;
+            }
+
+            .btn {
+                border-left: 1px dashed rgb(151, 151, 151);
+                background-color: #F7F7F7;
+                /* border: inherit; */
+
+            }
+        }
+
+        .right {
+            /* border: 3px solid green; */
+            width: 100%;
+            height: 60px;
+
+            .left {
+                width: 50%;
+                height: 100%;
+                /* border: 3px solid blue; */
+
+                i {
+                    display: flex;
+                    align-items: center;
+                    /* border: 1px solid violet; */
+                    /* width: 25%; */
+                    /* height: 100%; */
+                    font-size: 30px;
+                }
+
+                .phone {
+                    span {
+                        font-size: 13px;
+                        color: rgb(138, 137, 137);
+                        font-weight: 500;
+                    }
+
+                    h5 {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .right-middle {
+                width: 50%;
+                /* border: 3px solid blue; */
+
+                ul {
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        list-style: none;
+                        margin-right: 15px;
+                        /* border: 3px solid red; */
+
+                        a {
+                            /* margin-right: 10px; */
+                            font-size: 30px;
+                            /* border: 3px dashed violet; */
+                            color: black;
+                            /* border: 2px solid black; */
+                        }
+
+                    }
+
+                    .box {
+                        list-style: none;
+
+                        a {
+                            font-size: 30px;
+                            /* border: 3px dashed violet; */
+                            color: black;
+                            padding-right: 13px;
+                            position: relative;
+
+                            /* border: 2px solid black; */
+                            span {
+                                position: absolute;
+                                background-color: #FF5B5B;
+                                border-radius: 15mm;
+                                font-size: 12px;
+                                padding: 0 6px;
+                                top: 0;
+                                right: 0;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* HEADER BITDI SONNDAGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG */
+
+
+main {
+    /* border: 3px solid black; */
+    background-color: rgb(253, 253, 253);
+
+    #section1 {
+        width: 100%;
+        height: 150px;
+        /* border: 3px solid black; */
+
+        .section1-middle {
+            width: 100%;
+            height: 100px;
+            /* border: 3px solid blueviolet; */
+            border: 1px solid rgb(172, 172, 172);
+
+            .box1 {
+                height: 80px;
+                /* border-left: 1px solid rgb(129, 129, 129); */
+                /* border: 3px solid #FF5B5B; */
+                /* padding-left: 35px; */
+
+                .box11 {
+                    height: 60px;
+                    width: 100%;
+                    /* border: 3px solid blue; */
+
+                    i {
+                        margin-right: 8px;
+                        margin-left: 35px;
+                        font-size: 40px;
+                        /* border: 3px solid red; */
+                        align-items: center;
+                        /* justify-content: center; */
+                    }
+
+                    .text1 {
+                        /* border: 3px solid green; */
+
+                        .span1 {
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            display: block;
+                            /* border: 3px solid red; */
+                            font-size: 15px;
+                            font-weight: 650;
+                        }
+
+                        .span11 {
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            /* border: 3px solid violet; */
+                            font-size: 13px;
+                            font-weight: 400;
+                            color: rgb(126, 125, 125);
+                        }
+                    }
+                }
+            }
+
+            .box2 {
+                height: 80px;
+                border-left: 1px solid rgb(129, 129, 129);
+                /* border: 3px solid #FF5B5B; */
+                /* padding-left: 35px; */
+
+                .box22 {
+                    height: 60px;
+                    width: 100%;
+                    /* border: 3px solid blue; */
+
+                    i {
+                        margin-right: 8px;
+                        margin-left: 35px;
+                        font-size: 20px;
+                        border-radius: 12mm;
+                        padding: 10px 14px;
+                        border: 3px solid black;
+                        align-items: center;
+                        /* justify-content: center; */
+                    }
+
+                    .text2 {
+                        /* border: 3px solid green; */
+
+                        .span2 {
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            display: block;
+                            /* border: 3px solid red; */
+                            font-size: 15px;
+                            font-weight: 650;
+                        }
+
+                        .span22 {
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            /* border: 3px solid violet; */
+                            font-size: 13px;
+                            font-weight: 400;
+                            color: rgb(126, 125, 125);
+                        }
+                    }
+                }
+            }
+
+            .box3 {
+                height: 80px;
+                border-left: 1px solid rgb(129, 129, 129);
+                /* border: 3px solid #FF5B5B; */
+                /* padding-left: 35px; */
+
+                .box33 {
+                    height: 60px;
+                    width: 100%;
+
+                    /* border: 3px solid blue; */
+                    p {
+                        margin-right: 8px;
+                        margin-left: 60px;
+                        font-size: 20px;
+                        border: 3px solid black;
+                        border-radius: 8mm;
+                        padding: 6px 11px 8px 11px;
+                        margin-bottom: 0;
+                        /* align-items: center; */
+                    }
+
+                    .text3 {
+                        /* border: 3px solid green; */
+
+                        .span3 {
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            display: block;
+                            /* border: 3px solid red; */
+                            font-size: 15px;
+                            font-weight: 650;
+                        }
+
+                        .span33 {
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            /* border: 3px solid violet; */
+                            font-size: 13px;
+                            font-weight: 400;
+                            color: rgb(126, 125, 125);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* SECTION 1 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+     */
+    #section2 {
+        .section2-middle {
+            border: 1px solid rgb(168, 168, 168);
+
+            /* height: 350px; */
+            .head {
+                height: 45px;
+                background-color: #F4F4F4;
+
+                h6 {
+                    display: flex;
+                    align-items: center;
+                    margin-left: 25px;
+                    /* justify-content: center; */
+                    /* text-align: center; */
+                    font-size: 20px;
+                    /* justify-content: center; */
+                    font-weight: 750;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    text-align: center;
+                }
+            }
+
+            .category-list {
+                margin: 0;
+                padding: 0;
+
+                .before {
+                    padding: 8px 0 8px 25px;
+                    list-style: none;
+
+                    &:hover {
+                        background-color: cornflowerblue;
+
+                        i {
+                            color: #fff;
+                        }
+
+                        h1 {
+                            color: #fff;
+                        }
+                    }
+
+                }
+
+                .dropdown1 {
+                    padding: 8px 0 8px 25px;
+                    list-style: none;
+                    position: relative;
+
+                    &:hover {
+                        background-color: cornflowerblue;
+
+                        i {
+                            color: #fff;
+                        }
+
+                        h1 {
+                            color: #fff;
+                        }
+
+                        .dropdown {
+                            visibility: visible;
+                            opacity: 1;
+                            left: 100%;
+                        }
+                    }
+
+                    .dropdown {
+                        background-color: #ffffff;
+                        opacity: 0;
+                        visibility: hidden;
+                        top: 0;
+                        transition: .3s ease-in-out;
+                        left: 80%;
+                        position: absolute;
+                        /* background-color: red; */
+                        width: 600px;
+                        height: 300px;
+
+                        a {
+                            color: inherit;
+                            text-decoration: none;
+                            font-size: 13px;
+                            font-weight: 700;
+                        }
+
+                        .dropdown-ul1 {
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+                                a {
+                                    color: rgb(155, 155, 155);
+                                }
+                            }
+                        }
+
+                        .dropdown-ul2 {
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+                                a {
+                                    color: rgb(155, 155, 155);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .dropdown2 {
+                    padding: 8px 0 8px 25px;
+                    list-style: none;
+                    position: relative;
+
+                    &:hover {
+                        background-color: cornflowerblue;
+
+                        i {
+                            color: #fff;
+                        }
+
+                        h1 {
+                            color: #fff;
+                        }
+
+                        .dropdown {
+                            visibility: visible;
+                            opacity: 1;
+                            left: 100%;
+                        }
+                    }
+
+                    .dropdown {
+                        background-color: #ffffff;
+                        opacity: 0;
+                        visibility: hidden;
+                        top: 0;
+                        transition: .3s ease-in-out;
+                        left: 80%;
+                        position: absolute;
+                        /* background-color: red; */
+                        width: 600px;
+                        height: 300px;
+
+                        a {
+                            color: inherit;
+                            text-decoration: none;
+                            font-size: 13px;
+                            font-weight: 700;
+                        }
+
+                        .dropdown-ul1 {
+                            margin: 0;
+                            padding: 0;
+                            border: 3px solid red;
+
+                            li {
+                                /* left: -10px; */
+
+                                a {
+                                    text-decoration: none;
+                                    color: rgb(155, 155, 155);
+                                }
+                            }
+                        }
+
+                        .dropdown-ul2 {
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+
+                                /* padding: 10px 0; */
+                                a {
+                                    text-decoration: none;
+                                    color: rgb(155, 155, 155);
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+                .dropdown3 {
+                    padding: 8px 0 8px 25px;
+                    list-style: none;
+                    position: relative;
+
+                    &:hover {
+                        background-color: cornflowerblue;
+
+                        i {
+                            color: #fff;
+                        }
+
+                        h1 {
+                            color: #fff;
+                        }
+
+                        .dropdown33 {
+                            visibility: visible;
+                            opacity: 1;
+                            left: 100%;
+                        }
+                    }
+
+                    .dropdown33 {
+                        background-color: #ffffff;
+                        opacity: 1;
+                        visibility: hidden;
+                        top: 0;
+                        transition: .3s ease-in-out;
+                        left: 80%;
+                        position: absolute;
+                        /* background-color: red; */
+                        width: 600px;
+                        height: 300px;
+
+                        .dropdown-li {
+                            position: relative;
+
+                            &:hover {
+                                .dropdown-li-middle {
+                                    opacity: 1;
+                                    left: 100%;
+                                    visibility: visible;
+                                }
+                            }
+
+                            .dropdown-li-middle {
+                                margin: 0;
+                                padding: 0;
+                                background-color: #ffffff;
+                                opacity: 1;
+                                visibility: hidden;
+                                top: 0;
+                                transition: .3s ease-in-out;
+                                left: 80%;
+                                position: absolute;
+                                /* background-color: red; */
+                                width: 75px;
+                                height: 60px;
+
+
+
+                            }
+                        }
+
+                        a {
+                            color: inherit;
+                            text-decoration: none;
+                            font-size: 13px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                i {
+                    color: rgb(204, 204, 204);
+                }
+
+                h1 {
+                    margin-left: 5px;
+                    color: rgb(119, 119, 119);
+                    display: inline-block;
+                    font-size: 17px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    /* section2 cetindiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+    iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+    iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
+    #email {
+        border: 3px solid red;
+
+        .email1 {
+            border: 3px solid red;
+
+            .text1 {
+                h5 {
+                    font-size: 18px;
+                    font-weight: 750;
+                    text-align: center;
+                }
+            }
+            .text2{
+                span{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
